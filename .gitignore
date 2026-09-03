@@ -8,3 +8,5 @@
 # Archivos de workspace de VS Code
 *.code-workspace
 
+# Clases antiguas
+/Clases/old-(con javi)/
