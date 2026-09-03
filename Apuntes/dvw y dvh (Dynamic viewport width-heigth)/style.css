@@ -1,0 +1,22 @@
+/* :root {
+    
+    height: 100dvh;
+    width: 100dvw;
+}*/
+
+body {
+    height: 100%;
+}
+
+h1 {
+    height: 80%;
+}
+
+.login {
+    min-height: 100dvh; /*esto centra el formulario en el medio según las medidas de
+    la pantalla*/
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

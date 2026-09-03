@@ -1,0 +1,25 @@
+body {
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+
+    grid-template-areas:
+        "A A A B"
+        "C C D B"
+        "E E D H"
+        "G H H I";
+
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+body > div {
+    border: 1px solid black;
+}
+
+
+#a{
+    grid-area: "A";
+    background-color: green;
+}
