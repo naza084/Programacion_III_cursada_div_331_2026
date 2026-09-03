@@ -1,0 +1,27 @@
+/*Pseudo-selectores:  se usan mayormente con tablas*/
+
+/*Pinto el 2do div de un color verde dentro de main*/
+main > div:nth-child(2) {
+    background-color: green;
+}
+/*
+nth: 4th, 5th o  6th
+*/
+
+main > div:nth-child(2) {
+    background-color: green;
+}
+
+main > div:first-child {
+    background-color: blue;
+}
+
+main > div:last-child {
+    background-color: red;
+}
+
+
+/*Pseudo-elementos: elementos creados por CSS*/
+div::first-letter{
+    color: #f42
+}

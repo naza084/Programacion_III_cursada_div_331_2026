@@ -1,0 +1,37 @@
+
+body{
+    display:grid;
+
+    grid-template-columns: 80px 70 px;
+    grid-template-rows: 80px 70 px;
+}
+
+main{
+    grid-column: 1/2;
+}
+
+aside{
+    grid-column: 2/2;
+    background-color: rgb(209, 37, 183);
+}
+
+/*ancho maximo, hasta 1250 o menos se cambia el color a verde*/
+@media (max-width: 1250px){
+    main {
+        background-color: green;
+    }
+}
+
+/*480px: tamaño aproximado mobile*/
+@media (max-width: 480px) {
+    aside{
+        display:none;
+    }
+}
+
+/*320px: tamaño muy pequeño, no existe*/
+@media (max-width: 320px) {
+    body{
+        display:block;
+    }
+}

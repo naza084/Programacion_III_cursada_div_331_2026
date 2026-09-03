@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+/*afecta a hijos directos de header (debajo de header), ademas de todas las  etiquetas header*/
+header {
+    /*display: grid;
+    width: 100%;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;*/
+
+    display: flex;
+    background-color: #7b7a7a28;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /*alineacion horizontal*/
+    padding: 10px;
+}
+
+
+#perfil, #busqueda, #logo-youtube {
+    display: flex;
+}
+
+#crear, #notificaciones {
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+#crear > span {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#busqueda > input {
+    border-radius: 15px 0px 0px 15px;
+    border:none;
+}
+
+#busqueda {
+    flex-grow: 3;
+    justify-content: center;
+}
+
+#perfil-img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+

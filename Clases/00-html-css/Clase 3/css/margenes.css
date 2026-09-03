@@ -1,0 +1,22 @@
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+#p1 {
+    background-color: red;
+    padding-left: 20px;
+}
+
+#p2{
+    background-color: green;
+    padding-left: 20px;
+    padding-right: 500px;
+}
+
+#p3{
+
+    background-color: blue;
+    padding-left: 20px;
+}

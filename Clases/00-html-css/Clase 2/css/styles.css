@@ -1,0 +1,89 @@
+/*
+selector {
+
+    propiedades: valor; 
+    propiedades: valor valor valor;
+    propiedades: valor funcion();
+    propiedades: funcion()
+
+    DECLARACIONES = propiedad: valor
+}
+*/
+
+h1 {
+    color: red;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    border: 15px solid green;
+}
+
+
+/*
+TIPOS DE SELECTORES
+
+    - Selector de etiqueta (h1, p, div, span, etc.)
+    - Selector de clase (.clase1, .boton-menu)
+    - Selector de id (#id1, #id2)
+
+no hay convenciones para los nombres de id´s y clases pero normalmente se usan guiones para separar nombres
+*/
+
+
+/*Esto crea una etiqueta nueva según las leyes de HTML, se aplican los estilos 
+del selector. No se usa para nada.*/
+fondo-rojo{
+    background-color: red;
+}
+
+
+/*
+CLASES (con . se selecciona una clase)
+*/
+.parrafo-violeta{
+    color: blueviolet;
+}
+    
+.parrafo-verde{
+    color: green;
+}
+
+
+/*
+ID´s (con # se selecciona un id)
+NO SE DEBEN DUPLICAR ID´s!!!! SOLO SE PUEDE USAR UNA VEZ POR DOCUMENTO
+*/
+
+#primerSubtitulo{
+    color: blue;
+    background-color: brown;
+}
+
+
+/*uso de EM, los elementos hijos se adaptan al tamaño del padre 
+(el que los envuelve, en este caso section con el id contenedor)*/
+#contenedor{
+    font-size: 28px;
+}
+
+.titulo.em{
+    font-size: 2em;
+}
+
+.texto-em{
+    font-size: 1.2em;
+}
+
+/* Uso de REM (el tamaño se adapta al elemento raiz, osea, la etiqueta html */
+
+html{
+    font-size: 15px;
+}
+
+.titulo.erm{
+    font-size: 2rem;
+}
+
+.texto-rem{
+    font-size: 1.2rem;
+}

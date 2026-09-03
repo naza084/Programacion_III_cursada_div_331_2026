@@ -1,0 +1,34 @@
+.rojo{
+    /*esta forma de poner el color 
+    no siempre esta soportado por navegadores, 
+    por lo tanto no se usa*/
+    color:red; 
+}
+
+.amarillo{
+    /* 0-255 */
+    color: rgb(255, 255, 0);
+}
+
+.verde{
+    /* RBG hexadecimal  */
+    color: #00FF00;
+}
+
+.azul{
+    color:blue;
+}
+
+.violeta{
+    color:violet;
+}
+
+.rosa{
+    color:pink;
+}
+
+
+.transparente{
+    background-color: #000000;
+    color: #ffeedd22;
+}

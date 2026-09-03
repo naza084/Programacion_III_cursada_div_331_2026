@@ -1,0 +1,67 @@
+/*ORDEN DE SELECTORES DE CSS: como html, desde lo primero que aparece hasta lo ultimo
+o desde lo más global al más específico*/
+
+
+/*Configuración de tamaño y margenes*/
+
+/* el * es un selector GLOBAL apunta a TODOS los elementos */
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+/*<html>*/
+:root /*-> apunta al elemento raiz*/
+{
+    width: 100dvw;
+    height: 100dvh;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body > * {
+    padding: 20px;
+}
+
+
+/*Configuración de grilla*/
+#grilla {
+
+    display: grid;
+
+    /*una plantilla es una forma de definir la estructura de una cuadrícula */
+    grid-template-columns: 2fr 5fr 3fr; 
+    grid-template-rows: 100px 70px auto; 
+}
+
+/*apunta a los elementos con id #header y #ruta*/
+#header, #ruta {
+    grid-column: 1 / 3;
+}
+
+#header {
+    background-color: #f00;
+    grid-row: 1;
+}
+#busqueda {
+    background-color: #0f0;
+}
+#ruta {
+    background-color: #00f;
+}
+#config {
+    background-color: #ff0;
+}   
+#nav {
+    background-color: #0ff;
+}
+#main {
+    background-color: #0f0;
+}
+#article {
+    background-color: #aaa;
+}

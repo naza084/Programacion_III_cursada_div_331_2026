@@ -1,0 +1,53 @@
+
+div {
+    margin: 20px
+}
+
+/*Selectores a elementos con DISTINTAS PROPIEDADES*/
+
+input[type="number"]{
+    border:none;
+    border-bottom: solid #000 1px;
+}
+
+div.b {
+    background-color: #fbb;
+}
+
+
+/*
+Formularios -> validaciones y envios de datos
+
+*/
+
+/*Pseudo-clases: se indican con : luego del selector*/
+/*Tienen condiciones normalmente dictadas por su nombre.*/
+input:invalid {
+    color: #f00;
+    border: #f00 solid 3px;
+}
+
+input:hover {
+    background-color: #aaa;
+}
+
+input:valid {
+    color: rgb(15, 177, 15);
+    border: rgb(12, 200, 12) solid 3px;
+}
+
+input:focus{
+    background-color: rgb(4, 49, 249);
+    border: #000 solid 3px;
+    outline:none
+}
+
+form:invalid > button{
+    cursor:not-allowed;
+}
+
+input:autofill {
+    color: #fff;
+}
+
+
