@@ -1,0 +1,14 @@
+#dv{
+    border: 1px;
+    border-radius: 0 104px 104px 0;
+    height: 500px;
+    background-color: #001e2b;
+}
+
+#dv h1{
+    color: white;
+    font-size: 40px;
+    padding: 50px 20px 20px;
+    font-style: oblique;
+}
+

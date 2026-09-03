@@ -1,0 +1,170 @@
+:root {
+    --btn-azul: #0071E3;
+    --footer-background: rgb(245, 245, 247);
+    --footer-text-color: rgba(0, 0, 0, 0.56);
+}
+
+/*==================
+    Maquetas
+==================*/
+
+
+/*==================
+    Generales
+==================*/
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/*==================
+    Header
+==================*/
+
+header,
+header ul,
+.icono-container {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    justify-content: center;
+}
+
+.icono-header {
+    width: 25px;
+}
+
+.icono-header img {
+    width: 100%;
+}
+
+header ul {
+    justify-content: space-around;
+}
+
+header nav {
+    width: 60%;
+}
+
+header a {
+    padding: 5px 10px;
+}
+
+/*==================
+    Main
+==================*/
+
+section {
+    /* text-align: center; */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 692px;
+    margin-bottom: 5px;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+}
+
+#iphone {
+    background-image: url(https://www.apple.com/v/home/a/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg);
+}
+
+#watch {
+    background-image: url(https://www.apple.com/v/home/cm/images/heroes/apple-watch-series-11/hero_apple_watch_series_11__bdz1mml4dx6q_large.jpg);
+}
+
+#macbook {
+    background-image: url(https://www.apple.com/v/home/cm/images/heroes/macbook-neo/hero_macbook_neo__gnm3snkti4a6_large.jpg);
+}
+
+#ipad {
+    background-image: url(https://www.apple.com/v/home/cm/images/promos/ipad-air-m4/promo_ipad_air_m4__f9ie3h3pzr6m_large.jpg);
+    flex: 1;
+    margin-right: 5px;
+}
+
+#macbookpro {
+    background-image: url(https://www.apple.com/v/home/cm/images/promos/macbook-pro/promo_macbook_pro__e3xqrygvp9ea_large.jpg);
+    flex: 2;
+    color: white;
+}
+
+#airpods {
+    background-image: url(https://www.apple.com/v/home/cm/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_large.jpg);
+    flex: 2;
+    margin-right: 5px;
+}
+
+#card {
+    background-image: url(https://www.apple.com/v/home/cm/images/promos/apple-card/promo_apple_card__5cm7draujpey_large.jpg);
+    flex: 1;
+}
+
+#promo {
+    background-image: url(https://www.apple.com/v/home/cm/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg);
+    flex: 1;
+    margin-right: 5px;
+}
+
+#business {
+    background-image: url(https://www.apple.com/v/home/cm/images/promos/apple-business/promo_apple_business__fi88n3dz0emq_large.jpg);
+    flex: 1;
+
+}
+
+.prod-titulo {
+    margin-bottom: 0;
+    font-size: 48px;
+}
+
+.prod-descripcion {
+    font-size: 28px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.button button {
+    border-radius: 25px;
+    font-size: 1.2rem;
+    padding: 8px 20px;
+    border: 1px solid var(--btn-azul);
+}
+
+.btn-primario {
+    background-color: var(--btn-azul);
+    color: white
+}
+
+.btn-secundario {
+    background-color: transparent;
+    color: var(--btn-azul);
+}
+
+footer {
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 12px;
+    background-color: var(--footer-background);
+    color: var(--footer-text-color);
+}
