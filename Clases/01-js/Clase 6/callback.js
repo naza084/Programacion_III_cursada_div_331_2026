@@ -8,7 +8,7 @@ for (let i = 0; i < array.length; i++) {
         const primero = array[i];
         const segundo = array[j];
 
-        if (primero > segundo) {
+        if (primero < segundo) {
             array[i] = segundo;
             array[j] = primero;
         }
@@ -20,7 +20,7 @@ console.log(array);
 let array2 = [1, 222, 0, 34, 25]
 
 array2.sort((primero, segundo) => {
-    if (primero > segundo) {
+    if (primero < segundo) {
         return -1;
     } else {
         return 1;
