@@ -1,0 +1,14 @@
+{
+    "array": [
+        { 
+            "id": 1,
+            "nombre": "Juan", 
+            "apellido": "Perez" 
+        },
+        {
+            "id": 2,
+            "nombre": "Maria",
+            "apellido": "Gomez"
+        }
+    ]
+}
