@@ -21,9 +21,9 @@ class Auto {
 
     /**
      * Crea y guarda un auto.
-     * @param {Auto} auto instancia de Auto.
+     * @param {Auto} autoNuevo instancia de Auto.
      */
-    static crear(auto) {
+    static crear(autoNuevo) {
         
         // Revisar si hay una lista
         const listaGuardadaString = localStorage.getItem("autos");
@@ -49,7 +49,7 @@ class Auto {
 
         autos.push(autoNuevo);
 
-        // convertimos el objeto en un string en formato JSOn
+        // convertimos el objeto en un string en formato JSON
         // const autoString = `{'marca': ${auto.marca}, 'modelo': '${auto.modelo}`
         const autoArrayString = JSON.stringify(autos);
 

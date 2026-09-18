@@ -36,12 +36,3 @@ lista.insertAdjacentElement("afterbegin", parrafo);
 
 lista.insertAdjacentHTML("beforeend", "<p>Hola mundo con HTML</p>"); // No lo usamos :p
 
-
-
-//* EVENTOS
-
-// al cargar, la pagina debe mostrar todos los autos guardados
-
-
-
-//* FUNCIONES AUXILIARES
