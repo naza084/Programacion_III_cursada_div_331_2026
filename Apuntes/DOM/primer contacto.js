@@ -1,18 +1,37 @@
 const estilosBody = document.body.getAttribute("style")
-console.log(estilosBody);
+console.log(`Estilos del body: ${estilosBody}`);
+
 
 /**
  * @type {HTMLElement}
  */
 // p.textContent = "<strong>Primer párrafo modificado con textContent</strong>"; 
 const p = document.querySelector("p"); // obtener un elemento HTML mediante un selector de clase
-const h1 = document.querySelector("h1"); // obtener un elemento HTML mediante un selector de clase
+const h1 = document.querySelector("h1"); 
 
 
 // modificacion del contenido de p dentro de la etiqueta <p> con innerHTML
 p.innerHTML = "Primer párrafo modificado";
+document.body.appendChild(p); // agrega el elemento p al final del body 
+
+
+// CREAR Y AGREGAR UN NUEVO ELEMENTO AL DOM
+
+// Crear
+const nuevoP = document.createElement("p"); 
+nuevoP.textContent = "Segundo párrafo creado con createElement y textContent"; 
+
+// Agregar al dom (lo ubica en el documento, antes estaba solo en memoria)
+document.body.appendChild(nuevoP);
+
+
+
+console.log(typeof p.className); // devuelve un string vacio
 
 p.classList.add("resaltado"); // agrega la clase resaltado al elemento p
+
+console.log(p.className); // "resaltado"
+
 
 // Modifica el contenido de p 
 p.innerHTML = "<strong>Primer párrafo modificado con textContent</strong>"; 
