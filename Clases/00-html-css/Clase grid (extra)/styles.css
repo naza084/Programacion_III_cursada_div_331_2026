@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: 100px auto 300px;
+}
+
+#n1{
+
+}
+
+#n2{
+
+}
+
+#n3{
+
+}
+
+#n4{
+
+}
+
+#n5{
+
+}
+
+#n6{
+
+}
+
+#n7{
+
+}
