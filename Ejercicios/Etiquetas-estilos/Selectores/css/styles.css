@@ -1,0 +1,11 @@
+.padre > p {
+    color: red;
+}
+
+.padre p {
+    color: blue;
+}
+
+h1 + p {
+    margin-top: 0;
+}
