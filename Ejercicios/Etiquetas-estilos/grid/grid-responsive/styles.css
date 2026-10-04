@@ -1,0 +1,13 @@
+#grid-responsive{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px
+}
+
+#grid-responsive div{
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
