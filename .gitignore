@@ -15,3 +15,6 @@
 
 # Modulos 
 node_modules
+
+# Archivos de OneDrive
+desktop.ini
